@@ -15,12 +15,24 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.nav-link{
+  margin-right: 50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+
+
+letter-spacing: 0.01em;
+
+color: #fff !important ;
+}
+
+.tag{
+  color: #00A3FF !important;
+}
+
+.main-logo{
+  width: 10%;
 }
